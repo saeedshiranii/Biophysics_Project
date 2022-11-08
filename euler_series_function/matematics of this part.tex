@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\begin{document}
+
+$\frac{dv}{dt} = -v + I$
+
+$\rightarrow$ $\frac{v(t+\Delta t)-v(t)}{\Delta t} = -v(t)+I$ \\
+$v(t+\Delta t)-v(t) = \Delta t(-v(t)+I) $ \\
+
+
+$v(t+\Delta t) = v(t)+\Delta t(-v(t)+I)$ \\
+
+
+we could say:\\
+\begin{center}
+			t = n$\Delta t$\\
+\end{center}
+Hence: \\
+	\begin{center}
+	v((n+1)$\Delta t$) = v(n$\Delta$t) + $\Delta$t(-v(n$\Delta$t)+I)\\
+	\end{center}
+
+For having a simpler formula:\\
+	\begin{center}
+		$v_{n+1} = v_n + \Delta t (-v_n+I)$\\
+	\end{center}
+
+
+
+\end{document}
+
